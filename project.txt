@@ -1,0 +1,29 @@
+user_name: Encapsulation | Initialization | Abstraction = ✔
+
+Encapsulation: User details (name, pin, transactions) are stored in a private, secured manner.
+
+Initialization: Initializes user data and assigns a user pin, name, and balance.
+
+Abstraction: Hides complex logic behind simple function calls, ensuring ease of use.
+
+user_create_account: Encapsulation = ✔
+
+Encapsulation: Account data (name, pin, transactions) is securely encapsulated and stored in a separate file (userdata.json).
+
+user_data separate file: ✔
+
+User data, including transactions and balances, is stored in a separate JSON file for persistence.
+
+user_Bank_account:
+
+Manages user accounts through a functional banking system:
+
+Deposit: Allows users to deposit money and update their balance.
+
+Transfer: Facilitates money transfer while checking balance.
+
+Withdrawal: Allows money withdrawal with balance validation.
+
+Balance Inquiry: Displays current balance at any point.
+
+Transactions: Logs each action (deposit, withdrawal, transfer) in the user’s transaction history.
